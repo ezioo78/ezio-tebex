@@ -1,0 +1,53 @@
+.skin-menu-button {
+    background-color: transparent;
+    color: #464646;
+    font-family: Poppins;
+    font-size: 2.5vh;
+    cursor: pointer;
+    padding: 1vh 2vh;
+    border: none;
+    font-weight: 700;
+    border-bottom: .5vh solid #464646;
+    transition: all 0.3s ease;
+}
+
+.skin-menu-button:hover {
+    color: #7263D0;
+    border-bottom: .5vh solid #7263D0;
+}
+
+.skinm-active {
+    color: #7263D0;
+    border-bottom: .5vh solid #7263D0;
+}
+
+.skins-checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+}
+
+.skins-checkbox-label p {
+    margin: 0;
+    padding: 0;
+}
+
+.skins-checkboxmadebynitrosxd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 0.624px;
+    border: 1.073px solid #6D6D6D;
+    background: rgba(16, 16, 16, 0.68);
+    border-radius: .2vh;
+    cursor: pointer;
+}
+
+.skins-checkboxmadebynitrosxd img {
+    position: relative;
+    height: 2.2vh;
+    border: none;
+    outline: none;
+}

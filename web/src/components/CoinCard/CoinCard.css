@@ -1,0 +1,74 @@
+.coin-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #6D6D6D;
+    border-radius: .5vh;
+    width: 30vh;
+    height: 33vh;
+    background: rgba(16, 16, 16, 0.68);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: .6;
+    gap: 4.5vh;
+}
+
+.coin-card:hover {
+    opacity: 1;
+    /* width: 31vh;
+    height: 46vh; */
+}
+
+.coin-image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    /* background-color: green; */
+}
+
+.coin-image-section img {
+    width: 20vh;
+    height: 20vh;
+}
+
+.coin-card-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 35%; */
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+}
+
+.coin-card-infos h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.75vh;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.coin-card-infos p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: #5C5C5C;
+    font-weight: 500;
+    font-size: 1.25vh;
+}
+
+.coin-card-infos h1 strong {
+    color: #D0A163 !important;
+    font-weight: 600;
+    font-size: 2vh;
+}

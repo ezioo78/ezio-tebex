@@ -1,0 +1,59 @@
+.skins-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 82%;
+    width: 100%;
+    gap: 2vh;
+}
+
+.skins-menu {
+    position: relative;
+    width: 95%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+    color: #8A8A8A;
+}
+
+.skins-checkbox-label p, .skins-checkbox-label h1 {
+    color: #8A8A8A;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25vh;
+    font-family: Poppins;
+}
+
+.skins-checkbox-label p {
+    font-size: 1.75vh;
+    color: #B5B5B5 !important
+}
+
+#show-owned {
+    width: 5vh;
+    height: 5vh;
+    
+}
+
+.skins-checkbox-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* gap: 1vh; */
+}
+
+.skin-list {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30vh);
+    justify-content: space-between;
+    gap: 2vh;
+    width: 95%;
+    margin: 0 auto;
+    overflow: auto;
+}

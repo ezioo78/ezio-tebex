@@ -1,0 +1,9 @@
+.tiers-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    /* background-color: green; */
+    gap: 3vh;
+}

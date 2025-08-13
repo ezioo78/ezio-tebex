@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>w_ar_assaultriflemk2_kitty</modelName>
+            <txdName>w_ar_assaultriflemk2_kitty</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_ar_assaultriflemk2_hohoho</modelName>
+            <txdName>w_ar_assaultriflemk2_hohoho</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_sr_sniperrifle_hyperbeast</modelName>
+            <txdName>w_sr_sniperrifle_hyperbeast</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_ar_carbineriflemk2_anime</modelName>
+            <txdName>w_ar_carbineriflemk2_anime</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_ar_carbineriflemk2_jordan</modelName>
+            <txdName>w_ar_carbineriflemk2_jordan</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_mg_combatmg_blueedition</modelName>
+            <txdName>w_mg_combatmg_blueedition</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_mg_combatmg_galaxyedition</modelName>
+            <txdName>w_mg_combatmg_galaxyedition</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_mg_combatmg_greyedition</modelName>
+            <txdName>w_mg_combatmg_greyedition</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_mg_combatmg_pinkedition</modelName>
+            <txdName>w_mg_combatmg_pinkedition</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_mg_mg_fuelinjector</modelName>
+            <txdName>w_mg_mg_fuelinjector</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>

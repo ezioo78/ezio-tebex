@@ -1,0 +1,136 @@
+.boost-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #6D6D6D;
+    border-radius: .5vh;
+    width: 30vh;
+    height: 42.5vh;
+    background: rgba(16, 16, 16, 0.68);
+    transition: all 0.3s ease;
+    /* cursor: pointer; */
+    opacity: .6;
+    gap: 4.5vh;
+}
+
+.boost-card:hover {
+    opacity: 1;
+    /* width: 31vh;
+    height: 46vh; */
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 58%;
+    /* background-color: green; */
+}
+
+.image-section img {
+    width: 19.1667vh;
+    object-fit: scale-down;
+}
+
+.clock-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+    padding: 0;
+}
+
+.clock-info img {
+    width: 2vh;
+    height: 2vh;
+    margin: 0 1vh;
+}
+
+.clock-info p {
+    color: #636363;
+    font-family: Poppins;
+    font-size: 1.5vh;
+}
+
+.card-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    /* height: 35%; */
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+}
+
+.card-infos h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 1.25vh;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 3vh;
+    margin-top: 1vh;
+    gap: 1.5vh;
+    padding-left: 1vh;
+    font-family: Poppins;
+}
+
+.boost-buy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 3.5vh;
+    width: 10vh;
+    border: 0.937px solid #4D4D4D;
+    background: rgba(71, 71, 71, 0.20);
+    border-radius: .5vh;
+    font-family: Poppins;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background-color: red; */
+}
+
+.boost-buy img {
+    width: 2vh;
+    height: 2vh;
+    margin: 0 1vh;
+}
+
+.boost-buy:hover {
+    background: rgba(71, 71, 71, 0.40);
+} 
+
+.boost-buy p {
+    color: #707070;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 1.5vh;
+}
+
+.price-section p {
+    font-size: 1.75vh;
+}
+
+.price-section p strong {
+    color: #D0A163 !important;
+    font-weight: 600;
+    font-size: 1.75vh;
+}

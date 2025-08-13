@@ -1,0 +1,88 @@
+.homepage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    width: 100%;
+}
+
+p {
+    color: white
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 30%;
+    padding: 0 1.8519vh;
+    text-align: center;
+    gap: 2vh;
+}
+
+.mid-section img {
+    width: 51.3889vh;
+    height: 59.3519vh;
+}
+
+.transaction-id-input {
+    width: 30vh;
+    height: 5vh;
+    border-radius: .5vh;
+    border: .1vh solid rgba(255, 255, 255, 0.07);
+    background: #0C0C0C;
+    color: #868686;
+    font-weight: 700;
+    font-size: 1.75vh;
+    text-align: center;
+}
+
+.claim-code {
+    border-radius: .5vh;
+    border: .25vh solid rgba(67, 34, 202, 0.42);
+    background: #4322CA;
+    width: 30vh;
+    height: 5vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.claim-code:hover {
+    box-shadow: 0 0 1vh 0 #4322CA;
+}
+
+.claim-code p {
+    color: white;
+    font-size: 1.5vh;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.center-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-image span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.loading {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1vh;
+    width: 100%;
+    height: 100%;
+}
